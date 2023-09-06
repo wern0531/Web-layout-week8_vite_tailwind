@@ -1,0 +1,75 @@
+@tailwind base;
+@layer base {
+  body {
+    @apply bg-body;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive{
+    .font-96{
+      @apply font-noto font-black text-8xl leading-normal
+    }
+    .font-64{
+      @apply font-noto font-black text-64 leading-normal
+    }
+    .font-48-900{
+      @apply font-noto font-black text-5xl leading-normal
+    }
+    .font-48-700{
+      @apply font-noto font-bold text-5xl leading-normal
+    }
+    .font-40-700{
+      @apply font-noto font-bold text-[40px] leading-normal
+    }
+    .font-32-700{
+      @apply font-noto font-bold text-32 leading-normal
+    }
+    .font-24-700{
+      @apply font-noto font-bold text-2xl leading-normal
+    }
+    .font-20-700{
+      @apply font-noto font-bold text-xl leading-normal
+    }
+    .font-20-500{
+      @apply font-noto font-medium text-xl leading-normal
+    }
+    .font-16-700{
+      @apply font-noto font-bold leading-normal
+    }
+    .font-16-500{
+      @apply font-noto font-medium leading-normal
+    }
+    .font-16-400{
+      @apply font-noto leading-normal
+    }
+    
+    .font-s-96{
+      @apply font-shrikhand text-8xl leading-normal
+    }
+    .font-s-64{
+      @apply font-shrikhand text-64 leading-normal
+    }
+    .font-s-32{
+      @apply font-shrikhand text-32 leading-normal
+    }
+    .font-s-24{
+      @apply font-shrikhand text-2xl leading-normal
+    }
+    .font-s-20{
+      @apply font-shrikhand text-xl leading-normal
+    }
+    .font-s-16{
+      @apply font-shrikhand text-base leading-normal
+    }
+  }
+}
+
+
+
+.swiper-scrollbar-drag {
+  background-color: #FFF;
+  height: 4px;
+}
